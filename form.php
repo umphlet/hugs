@@ -10,6 +10,6 @@ if ($CLEAN_URL === true) {
 <? } else { ?>
 <form onsubmit="location.href='./index.php?hug=' + document.getElementById('myInput').value; return false;">
 <? } ?>
-<input type="text" id="myInput" />
-  <input type="submit" />
+<input type="text" id="myInput">
+  <input type="submit">
 </form>

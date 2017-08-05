@@ -3,6 +3,7 @@
 if ($_GET["view"] == "who-has-hugs") {
   $TITLE_TAG = "Let's see who has hugs so far!";
   include("header.php");
+  include("list.php");
 }
 // Add a hug
 else if ($_GET["hug"]) {
