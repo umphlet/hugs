@@ -1,0 +1,4 @@
+#Add the following to your .htaccess after you enable CLEAN_URL in hugs-config.php
+RewriteEngine On
+RewriteRule ^([a-z0-9-]+)\/?$ index.php?view=$1 [NC]
+RewriteRule hugme/([A-Za-z\s]+)\/?$ index.php?hug=$1 [NC]

@@ -1,0 +1,17 @@
+<?
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for Hugs */
+define('DB_NAME', 'mysql_db');
+
+/** MySQL database username */
+define('DB_USER', 'mysql_user');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'mysql_pass');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
+
+/** Clean URLs */
+$CLEAN_URL = false;
+?>
