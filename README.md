@@ -8,6 +8,10 @@ Just upload the files to your server.
 
 Be sure to edit hugs-config.php.sample variables to match your database. This is based on your host.
 
+If you have mod_rewrite enable the CLEAN_URI variable. Remember to copy the contents of htaccess.txt to your .htaccess file.
+
+If you install to a folder be sure to set BASE_URI to whichever folder you put it in. I will add some functionality in the future to have it detect this for you.
+
 Also remember to rename hugs-config.php.sample to hugs-config.php or nothing will work and I will mock you.
 
 Happy hugging!
