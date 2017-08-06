@@ -15,7 +15,7 @@ $DB_HOST = 'localhost';
 /** Clean URLs. Be sure to copy the lines from htaccess.txt to your .htaccess if you enable this. */
 $CLEAN_URL = false;
 
-/** Base URL... If you install Hugs into a folder you will need to set the base path here. */
+/* Base URL... If you install Hugs into a folder you will need to set the base path here. */
 /** If you installed in the root folder just set it as "/" */
 $BASE_URI = "/hugs/";
 ?>
