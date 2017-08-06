@@ -13,5 +13,6 @@ require_once("content.php");
 // Footer
 require_once("footer.php");
 ?>
+</main>
 </body>
 </html>
