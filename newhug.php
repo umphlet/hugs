@@ -1,4 +1,4 @@
-<?
+<?php
   $table_check = mysqli_query($conn, "SELECT 1 FROM HUGS_DATA LIMIT 1");
   if ($table_check === false) {
     echo "Table doesn't exist, let's try to create it!";
@@ -19,8 +19,8 @@
   mysqli_query($conn, "UPDATE HUGS_DATA SET COUNT = $addedhug WHERE NAME='$name'");
 }
 ?>
-<h1>You hugged <? echo htmlspecialchars($name); ?></h1>
-<p><? echo htmlspecialchars($name); ?> has <? echo $addedhug ?> hugs now!</p>
-<p>Here is your HugMe URL: <a href="<? echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>"><? echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?></a></p>
+<h1>You hugged <?php echo htmlspecialchars($name); ?></h1>
+<p><?php echo htmlspecialchars($name); ?> has <?php echo $addedhug ?> hugs now!</p>
+<p>Here is your HugMe URL: <a href="<?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>"><?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?></a></p>
 <p>Hug someone else?</p>
-<? include("form.php"); ?>
+<?php include("form.php"); ?>

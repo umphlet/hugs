@@ -1,4 +1,4 @@
-<?
+<?php
 // Check if we're showing the table of who has hugs.
 if ($_GET["view"] == "who-has-hugs") {
   $TITLE_TAG = "Let's see who has hugs so far!";
@@ -25,7 +25,7 @@ else if (!$_GET["view"] && !$_GET["hug"] && !$_POST["hug"]) {
 
 <h1>Hug Somebody!</h1>
 
-<? include("form.php"); }
+<?php include("form.php"); }
 // 404
 else {
   header("HTTP/1.0 404 Not Found", true, 404);

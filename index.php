@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<?
+<?php
 // Include config file
 require_once("hugs-config.php");
 
