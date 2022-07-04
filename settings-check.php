@@ -1,6 +1,6 @@
 <?php
 // Connect to our database
-$conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
+$conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME, $DB_PORT);
 if (!$conn) {
   die('Cound not connect: ' . mysqli_connect_error());
 }
