@@ -12,6 +12,9 @@ $DB_PASS = 'mysql_pass';
 /** MySQL hostname */
 $DB_HOST = 'localhost';
 
+/** MySQL port */
+$DB_PORT = 3306;
+
 /** Clean URLs. Be sure to copy the lines from htaccess.txt to your .htaccess if you enable this. */
 $CLEAN_URL = false;
 
