@@ -14,6 +14,4 @@ If you install to a folder be sure to set BASE_URI to whichever folder you put i
 
 Also remember to rename hugs-config.php.sample to hugs-config.php or nothing will work and I will mock you.
 
-Live demo here: http://umphlet.com/hugs/ Be aware I wipe this db every once in a while for sanity.
-
 Happy hugging!
